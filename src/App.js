@@ -3,8 +3,8 @@ import carJson from './car';
 import './App.css';
 
 const App = () => {
-  const [slots, setSlots] = useState(10);
-  const [carParked, setCarParked] = useState(5);
+  const [slots, setSlots] = useState('');
+  const [carParked, setCarParked] = useState('');
   const [carNumber, setCarNumber] = useState('');
   const [color, setColor] = useState('');
   const [cars, setCars] = useState([]);
